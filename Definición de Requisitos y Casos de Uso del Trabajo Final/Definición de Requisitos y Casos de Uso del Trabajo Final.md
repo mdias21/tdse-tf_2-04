@@ -137,8 +137,8 @@ Utilizado para calibración y mantenimiento técnico.
 
 ### **5. Diagramas del sistema**
 
-- **Figura 1:** Diagrama de planta del sistema (![SalaAislados.png](https://raw.githubusercontent.com/nicopotenza/tdse-tf_2-04/refs/heads/main/Anteproyecto/SalaAislados.png)).
-- **Figura 2:** Diagrama de bloques funcional (![DiagramaDeBloques.png](https://raw.githubusercontent.com/nicopotenza/tdse-tf_2-04/refs/heads/main/Anteproyecto/DiagramaDeBloques.png)).
+- **Figura 1:** Diagrama de planta del sistema (![SalaAislados.png](https://raw.githubusercontent.com/nicopotenza/tdse-tf_2-04/refs/heads/main/Definici%C3%B3n%20de%20Requisitos%20y%20Casos%20de%20Uso%20del%20Trabajo%20Final/Im%C3%A1genes/SalaAislados.png)).
+- **Figura 2:** Diagrama de bloques funcional (![DiagramaDeBloques.png](https://raw.githubusercontent.com/nicopotenza/tdse-tf_2-04/refs/heads/main/Definici%C3%B3n%20de%20Requisitos%20y%20Casos%20de%20Uso%20del%20Trabajo%20Final/Im%C3%A1genes/DiagramaDeBloques.png)).
 
 #### **5.1 Diagrama UML de Casos de Uso**
 
