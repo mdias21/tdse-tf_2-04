@@ -122,6 +122,21 @@ Utilizado para calibración y mantenimiento técnico.
 
 ---
 
+### Incorporación de memoria E²PROM externa 
+Para garantizar que la configuración crítica del sistema no se pierda ante un corte de energía, se incorpora una memoria E²PROM externa conectada mediante bus I²C.
+Esta E²PROM permitirá almacenar en forma persistente:
+Parámetros de calibración de sensores.
+Setpoints configurados por el usuario.
+Histeresis, límites de alarma y constantes del controlador.
+Último modo de operación seleccionado.
+Valores iniciales del modo SET_UP configurados tras la instalación.
+
+La lógica de firmware incluirá:
+Escritura diferida (write-back) para evitar desgaste por escrituras repetitivas.
+Checksum o CRC para detectar datos corruptos.
+Rutinas de inicialización que cargan la configuración desde la E²PROM al arranque.
+Modo “Factory Reset” en SET_UP para restaurar valores por defecto
+
 ### **4. Casos de uso**
 
 | **Actor** | **Caso de Uso** | **Descripción** |
